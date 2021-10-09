@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('http://fonts.cdnfonts.com/css/boarding-personal-use');
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  background-color: #d5ddcb;
+  opacity: 0.8;
+  font-family: 'Roboto';
+}
+
+.figure {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #e7e7e7;
+  width: 25%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px 0px;
+}
+
+.cards-pokemons {
+  background-color: transparent;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.img-fluid {
+  width: 140px;
+  height: 140px;
+}
+.nav {
+  width: 100%;
+  background-color: #5fb0cc;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.navText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.background {
+  background-color: #5fb0cc;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.span-evolutions {
+  margin: 10px;
+  background-color: #5fb0cc;
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.span-dont-evolution {
+  margin: 10px;
+  background-color: #df708b;
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.span-pokemon-name {
+  background-color: #52bf7c;
+  width: 60%;
+  height: 40px;
+  display: flex;
+  font-size: 1.5em;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.p-about {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  color: white;
+  font-weight: 800;
+  font-family: 'Boarding Personal Use', sans-serif;
+  animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: #5fb0cc;
+  }
+}
